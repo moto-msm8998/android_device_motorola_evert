@@ -1,17 +1,17 @@
-# TWRP Device configuration for Motorola Moto Z2 Force (nash)
+# TWRP Device configuration for Motorola Moto X4 (payton)
 
 Copyright 2018 - The OmniROM Project
 
-For building TWRP for Motorola Moto Z2 Force & Moto Z 2018 ONLY.
+For building TWRP for Motorola Moto X4 ONLY.
 
 ### Kernel Source
-Check here: https://github.com/motoz2-force/android_kernel_motorola_msm8998
+Check here: https://github.com/ixmoe/android_kernel_motorola_sdm630
 
 ### How to compile
 
 ```sh
 . build/envsetup.sh
-lunch omni_nash-eng
+lunch omni_payton-eng
 make -j4 recoveryimage
 ```
 
@@ -20,14 +20,14 @@ make -j4 recoveryimage
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core (4x2.45 GHz Kryo & 4x1.9 GHz Kryo)
-CHIPSET | Qualcomm MSM8998 Snapdragon 835
-GPU     | Adreno 540
-Memory  | 6, 4GB
-Shipped Android Version | 7.1 (Nougat)
-Storage | 64, 128GB
-Battery | 2730 mAh
-Dimensions | 155.8 x 76 x 6.1 mm
-Display | 1440 x 2560 pixels, 5.5" P-OLED
+CPU     | Octa-core (8x2.21 GHz Cortex A53)
+CHIPSET | Qualcomm SDM630 Snapdragon 630
+GPU     | Adreno 508
+Memory  | 3, 4, 6 GB
+Shipped Android Version | 7.1.1 (Nougat)
+Storage | 32, 64GB
+Battery | 3000 mAh
+Dimensions | 148.4 x 73.4 x 8 mm
+Display | 1080 x 1920 pixels, 5.2" LTPS IPS LCD
 Rear Camera  | Dual 12 MP
-Front Camera | 5 MP
+Front Camera | 8 MP
