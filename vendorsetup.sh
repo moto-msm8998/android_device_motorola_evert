@@ -1,2 +1,2 @@
-add_lunch_combo omni_nash-eng
-add_lunch_combo omni_nash-userdebug
+add_lunch_combo omni_payton-eng
+add_lunch_combo omni_payton-userdebug

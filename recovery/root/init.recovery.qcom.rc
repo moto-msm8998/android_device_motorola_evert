@@ -29,13 +29,13 @@ on early-init
     setenforce 0
 
 on fs
-    wait /dev/block/platform/soc/1da4000.ufshc
-    symlink /dev/block/platform/soc/1da4000.ufshc /dev/block/bootdevice
+    wait /dev/block/platform/soc/c0c4000.sdhci
+    symlink /dev/block/platform/soc/c0c4000.sdhci /dev/block/bootdevice
     chmod 0660 /dev/qseecom
     chown system drmrpc /dev/qseecom
     chmod 0664 /dev/ion
     chown system system /dev/ion
-    setprop ro.hardware.bootctrl msm8998
+    setprop ro.hardware.bootctrl sdm660
     export LD_LIBRARY_PATH /sbin:/vendor/lib64:/vendor/lib64/hw
     install_keyring
 
