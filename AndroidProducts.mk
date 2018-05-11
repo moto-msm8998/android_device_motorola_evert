@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_payton.mk
+    $(LOCAL_DIR)/omni_evert.mk

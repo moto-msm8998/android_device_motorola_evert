@@ -65,14 +65,14 @@ PRODUCT_PACKAGES += \
 
 # ROM fstab
 PRODUCT_COPY_FILES += \
-  device/motorola/payton/rootdir/root/fstab.qcom:root/fstab.qcom
+  device/motorola/evert/rootdir/root/fstab.qcom:root/fstab.qcom
 
 # Time Zone data for recovery
 PRODUCT_COPY_FILES += \
 	bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
-PRODUCT_DEVICE := payton
-PRODUCT_NAME := omni_payton
+PRODUCT_DEVICE := evert
+PRODUCT_NAME := omni_evert
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto X4
 PRODUCT_MANUFACTURER := Motorola
