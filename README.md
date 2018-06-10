@@ -4,15 +4,15 @@
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core (8x2.21 GHz Cortex A53)
+CPU     | Octa-core 2.2 GHz Cortex-A53
 CHIPSET | Qualcomm SDM630 Snapdragon 630
 GPU     | Adreno 508
-Memory  | 3, 4, 6 GB
+Memory  | 4, 6 GB
 Shipped Android Version | 8.0 (Oreo)
-Storage | 32, 64GB
-Battery | 3000 mAh
-Dimensions | 148.4 x 73.4 x 8 mm
-Display | 1080 x 1920 pixels, 5.2" LTPS IPS LCD
+Storage | 64, 128GB
+Battery | 3200 mAh
+Dimensions | 160 x 75.5 x 8 mm
+Display | 1080 x 1920 pixels, 5.9" IPS LCD
 Rear Camera  | Dual 12 MP
 Front Camera | 8 MP
 
